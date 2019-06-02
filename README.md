@@ -14,5 +14,5 @@ docker-compose up
 ## Sample request:
 
 `
-curl --header "Content-Type: application/json" --request POST --data'[{"sepal_length":6.3,"sepal_width":2.3,"petal_length":4.4,"petal_width":1.3}]' http://localhost:8080/predict
+curl --header "Content-Type: application/json" --request POST --data '[{"sepal_length":6.3,"sepal_width":2.3,"petal_length":4.4,"petal_width":1.3}]' http://localhost:8080/predict
 `
